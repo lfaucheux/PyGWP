@@ -4,11 +4,6 @@
 - **[IPCC WG1 Fourth Assessment Report, 2007](https://www.ipcc.ch/publications_and_data/ar4/wg1/en/ch2s2-10-2.html)**
 - **[Levasseur et al, 2010](http://pubs.acs.org/doi/abs/10.1021/es9030003)**
 
-## Installation
-    git clone git://github.com/lfaucheux/PyGWP.git
-    cd PyGWP
-    python setup.py install
-
 ## Requirements
 
 - **[numpy](http://www.numpy.org/)**
@@ -16,6 +11,18 @@
 ## Use cases
 
 - **Scientific modelling**
+    
+## Installation
+
+We are going to use a package management system to install and manage software packages written in Python, namely [pip](https://en.wikipedia.org/wiki/Pip_(package_manager)). Open a session in your OS shell prompt and type
+
+    pip install pygwp
+
+Or using a non-python-builtin approach, namely [git](https://git-scm.com/downloads),
+
+    git clone git://github.com/lfaucheux/PyGWP.git
+    cd PyGWP
+    python setup.py install
 
 ## Example usage:
 
