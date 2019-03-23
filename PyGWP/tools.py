@@ -2,7 +2,7 @@
 # -*- coding: utf8 -*-
 
 __author__ = "Laurent Faucheux <faucheux@centre-cired.fr>"
-__all__    = ['cache']
+__all__    = ['Cache']
 
 
 class Cache(object):
