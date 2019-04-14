@@ -4,7 +4,7 @@ from setuptools import setup
 import pathlib as pa
 import codecs as cd
 
-package_version = "0.0.30"
+package_version = "0.0.31"
 package_name    = 'PyGWP'
 
 with pa.Path('requirements.txt').open() as requirements:
