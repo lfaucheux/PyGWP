@@ -5,6 +5,13 @@
 - **[Levasseur et al, 2010](http://pubs.acs.org/doi/abs/10.1021/es9030003)**
 
 ## Installation
+
+We are going to use a package management system to install and manage software packages written in Python, namely [pip](https://en.wikipedia.org/wiki/Pip_(package_manager)). Open a session in your OS shell prompt and type
+
+    pip install pygwp
+
+Or using a non-python-builtin approach, namely [git](https://git-scm.com/downloads),
+
     git clone git://github.com/lfaucheux/PyGWP.git
     cd PyGWP
     python setup.py install
